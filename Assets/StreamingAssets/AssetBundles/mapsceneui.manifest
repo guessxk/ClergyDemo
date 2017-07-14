@@ -1,0 +1,78 @@
+ManifestFileVersion: 0
+CRC: 3277143009
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b938d5a95079291ce50b8a8454ca4101
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e45f132d30d5bcfd5adb702dc30d888e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a08613409316b894880e7a76faae2566, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 560fa551e3212be459367261e574cc45, type: 3}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1741964061, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -2095666955, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -405508275, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -1200242548, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -2061169968, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1367256648, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1297475563, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9dfb0c12b4cd30549878136ba668a33d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 507a1482805eb1144a75edaf58c4f1c1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d1954d924b4233a498ef51bb007b46f8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b10ca6d3f1a9bd448804ba900db3c8d0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c52cbc1629915c544ae1a8c10c940bc5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 060763c9580da7d4789a7d45cd0286e0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c5c29dbbc599ee649abf223e86786a62, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/UI/RelPanelView.prefab
+- Assets/Prefabs/UI/CityInView.prefab
+- Assets/Prefabs/UI/ActiveMenuView.prefab
+- Assets/Prefabs/UI/CountryPanelView.prefab
+- Assets/Prefabs/UI/CountryPanelItem.prefab
+- Assets/Prefabs/UI/LeadPanelView.prefab
+- Assets/Prefabs/UI/CityInfoSignView.prefab
+- Assets/Prefabs/UI/OptionPanelView.prefab
+- Assets/Prefabs/UI/PopInterFacePanelView.prefab
+Dependencies: []

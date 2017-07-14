@@ -1,0 +1,13 @@
+ManifestFileVersion: 0
+CRC: 3247124199
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: maptile
+      Dependencies: {}
+    Info_1:
+      Name: role
+      Dependencies: {}
+    Info_2:
+      Name: mapsceneui
+      Dependencies: {}

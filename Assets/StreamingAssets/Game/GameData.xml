@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<listType>
+ <InitConf>
+    <CanonConf>
+      <Canon name="一神信仰" cost="0" id="1" mutex="2">
+        <Desc>一神信仰认为世界只存在唯一的一位至高之神</Desc>
+        <CanonVarChg>
+          <Inst></Inst>
+          <VarName>m_relType</VarName>
+          <ChgNum>1</ChgNum>
+         </CanonVarChg>
+      </Canon>
+      <Canon name="多神信仰" cost="0" id="2" mutex="1">
+        <Desc>多神信仰相信世界有众多神灵存在</Desc>
+        <CanonVarChg>
+          <Inst></Inst>
+          <VarName>m_relType</VarName>
+          <ChgNum>2</ChgNum>
+        </CanonVarChg>
+      </Canon>   
+    </CanonConf>
+    <BuildingConf>
+      <Building name="城门" cost="0" id ="1">        
+      </Building>
+      <Building name="市政厅" cost="0" id ="2">
+      </Building>
+    </BuildingConf>
+    <CountryConf>
+       <Country name="森林国" mapid="1">
+         <military>1000</military>
+         <crown>50</crown>
+       </Country>
+      <Country name="帝国" mapid="2">
+        <military>5000</military>
+        <crown>80</crown>
+      </Country>
+      <Country name="沙漠国" mapid="3">
+        <military>1300</military>
+        <crown>70</crown>
+      </Country>
+    </CountryConf>
+ </InitConf>
+</listType>

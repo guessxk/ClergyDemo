@@ -1,0 +1,98 @@
+ManifestFileVersion: 0
+CRC: 98790870
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c3914f71bcbdcbe24f54067d891c5593
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 74092efffcb0ccf836d4173cfa12651e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 60
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: d894fefd29496694eb62b08302080dc2, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128dirt1.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128forest0.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128mountain3.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128dirtvillage2.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128plainvillage0.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128plainvillageS1.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128marsh3.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128dirt3.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128void0.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128hill3.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128plainvillage2.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128desert3.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128plainvillageS0.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128dirtvillageS3.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128desert1.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128oasis1.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128base0.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128forest3.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128plain0.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128farm1.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128dirtcastle0.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128void3.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128dirtvillageS0.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128dirt2.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128mountain2.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128plainvillage3.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128hill2.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128plainvillageS3.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128plainvillage1.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128water3.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128plain3.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128dirtvillageS1.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128forest2.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128plainvillageS2.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128plaincastle0.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128farm2.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128plain1.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128water1.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128farm0.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128base3.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128water0.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128mountain0.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128dirtvillage0.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128marsh2.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128marsh1.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128marsh0.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128base2.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128void1.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128plain2.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128water2.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128desert2.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128base1.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128dirtvillage1.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128mountain1.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128dirtvillage3.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128hill0.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128walledcity0.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128hill1.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128desert0.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128void2.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128forest1.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128dirtvillageS2.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128farm3.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128dirt0.prefab
+- Assets/Prefabs/MapTiled/MapTile128X192/map_128oasis0.prefab
+Dependencies: []

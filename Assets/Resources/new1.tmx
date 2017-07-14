@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="staggered" renderorder="right-up" width="40" height="40" tilewidth="256" tileheight="384" staggeraxis="y" staggerindex="odd" nextobjectid="14">
+ <tileset firstgid="1" name="terrain" tilewidth="256" tileheight="384" tilecount="40" columns="8">
+  <image source="../Spirits/tiledMap/terrain_hextiles_painted_basic_256x384.png" width="2048" height="2048"/>
+  <tile id="0">
+   <properties>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="type" type="int" value="2"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="type" type="int" value="3"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="type" type="int" value="3"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="type" type="int" value="3"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="type" type="int" value="3"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="type" type="int" value="4"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="type" type="int" value="4"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="type" type="int" value="4"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="type" type="int" value="4"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="type" type="int" value="5"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="type" type="int" value="5"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="type" type="int" value="5"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="type" type="int" value="5"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="type" type="int" value="6"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="type" type="int" value="6"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="type" type="int" value="6"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="type" type="int" value="6"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="type" type="int" value="7"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="type" type="int" value="7"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="type" type="int" value="7"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="type" type="int" value="7"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="type" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="type" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="type" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="type" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="type" type="int" value="8"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="type" type="int" value="8"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="type" type="int" value="8"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="type" type="int" value="8"/>
+   </properties>
+  </tile>
+  <tile id="36">
+   <properties>
+    <property name="type" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="type" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="type" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="39">
+   <properties>
+    <property name="type" type="int" value="0"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="41" name="DesertOasis0" tilewidth="256" tileheight="384" tilecount="1" columns="1">
+  <image source="../Spirits/tiledMap/hexDesertDunesOasis00.png" width="256" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="9"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="42" name="DesertOasis1" tilewidth="256" tileheight="384" tilecount="1" columns="1">
+  <image source="../Spirits/tiledMap/hexDesertDunesOasis01.png" width="256" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="type" type="int" value="9"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="43" name="DirtCastle0" tilewidth="256" tileheight="384" tilecount="1" columns="1">
+  <image source="../Spirits/tiledMap/hexDirtCastle00.png" width="256" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="11"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="44" name="DirtWalledCity0" tilewidth="256" tileheight="384" tilecount="1" columns="1">
+  <image source="../Spirits/tiledMap/hexDirtWalledCity00.png" width="256" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="type" type="int" value="16"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="45" name="PlainsCastle0" tilewidth="256" tileheight="384" tilecount="1" columns="1">
+  <image source="../Spirits/tiledMap/hexPlainsCastle00.png" width="256" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="type" type="int" value="17"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="46" name="DirtVillage0" tilewidth="256" tileheight="384" tilecount="1" columns="1">
+  <image source="../Spirits/tiledMap/hexDirtVillage00.png" width="256" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="type" type="int" value="12"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="47" name="DirtVillage1" tilewidth="256" tileheight="384" tilecount="1" columns="1">
+  <image source="../Spirits/tiledMap/hexDirtVillage01.png" width="256" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="type" type="int" value="12"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="48" name="DirtVillage2" tilewidth="256" tileheight="384" tilecount="1" columns="1">
+  <image source="../Spirits/tiledMap/hexDirtVillage02.png" width="256" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="type" type="int" value="12"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="49" name="DirtVillage3" tilewidth="256" tileheight="384" tilecount="1" columns="1">
+  <image source="../Spirits/tiledMap/hexDirtVillage03.png" width="256" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="type" type="int" value="12"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="50" name="DirtVillageS0" tilewidth="256" tileheight="384" tilecount="1" columns="1">
+  <image source="../Spirits/tiledMap/hexDirtVillageSmall00.png" width="256" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="13"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="51" name="DirtVillageS1" tilewidth="256" tileheight="384" tilecount="1" columns="1">
+  <image source="../Spirits/tiledMap/hexDirtVillageSmall01.png" width="256" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="type" type="int" value="13"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="52" name="DirtVillageS2" tilewidth="256" tileheight="384" tilecount="1" columns="1">
+  <image source="../Spirits/tiledMap/hexDirtVillageSmall02.png" width="256" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="type" type="int" value="13"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="53" name="DirtVillageS3" tilewidth="256" tileheight="384" tilecount="1" columns="1">
+  <image source="../Spirits/tiledMap/hexDirtVillageSmall03.png" width="256" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="type" type="int" value="13"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="54" name="Farm0" tilewidth="256" tileheight="384" tilecount="1" columns="1">
+  <image source="../Spirits/tiledMap/hexPlainsFarm00.png" width="256" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="type" type="int" value="10"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="55" name="Farm1" tilewidth="256" tileheight="384" tilecount="1" columns="1">
+  <image source="../Spirits/tiledMap/hexPlainsFarm01.png" width="256" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="type" type="int" value="10"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="56" name="Farm2" tilewidth="256" tileheight="384" tilecount="1" columns="1">
+  <image source="../Spirits/tiledMap/hexPlainsFarm02.png" width="256" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="type" type="int" value="10"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="57" name="Farm3" tilewidth="256" tileheight="384" tilecount="1" columns="1">
+  <image source="../Spirits/tiledMap/hexPlainsFarm03.png" width="256" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="type" type="int" value="10"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="58" name="PlainsVillage0" tilewidth="256" tileheight="384" tilecount="1" columns="1">
+  <image source="../Spirits/tiledMap/hexPlainsVillage00.png" width="256" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="type" type="int" value="14"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="59" name="PlainsVillage1" tilewidth="256" tileheight="384" tilecount="1" columns="1">
+  <image source="../Spirits/tiledMap/hexPlainsVillage01.png" width="256" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="type" type="int" value="14"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="60" name="PlainsVillage2" tilewidth="256" tileheight="384" tilecount="1" columns="1">
+  <image source="../Spirits/tiledMap/hexPlainsVillage02.png" width="256" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="type" type="int" value="14"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="61" name="PlainsVillageS0" tilewidth="256" tileheight="384" tilecount="1" columns="1">
+  <image source="../Spirits/tiledMap/hexPlainsVillageSmall00.png" width="256" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="type" type="int" value="15"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="62" name="PlainsVillageS1" tilewidth="256" tileheight="384" tilecount="1" columns="1">
+  <image source="../Spirits/tiledMap/hexPlainsVillageSmall01.png" width="256" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="type" type="int" value="15"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="63" name="PlainsVillageS2" tilewidth="256" tileheight="384" tilecount="1" columns="1">
+  <image source="../Spirits/tiledMap/hexPlainsVillageSmall02.png" width="256" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="type" type="int" value="15"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="64" name="PlainsVillageS3" tilewidth="256" tileheight="384" tilecount="1" columns="1">
+  <image source="../Spirits/tiledMap/hexPlainsVillageSmall03.png" width="256" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="type" type="int" value="15"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="65" name="PlainsVillage3" tilewidth="256" tileheight="384" tilecount="1" columns="1">
+  <image source="../Spirits/tiledMap/hexPlainsVillage03.png" width="256" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="type" type="int" value="14"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="layer1" width="40" height="40">
+  <data encoding="csv">
+20,1,1,1,1,20,1,1,1,1,1,1,1,1,1,1,1,1,36,1,1,1,36,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,19,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,36,1,1,1,1,1,1,1,54,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,10,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,54,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,23,1,1,1,1,1,1,1,1,1,1,54,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,21,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,36,1,1,21,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,21,1,1,1,12,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,21,1,21,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,21,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,11,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,21,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,10,1,1,1,1,1,1,11,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,21,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,10,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,10,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,10,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,10,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+20,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+20,1,1,1,1,13,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,22
+</data>
+ </layer>
+ <objectgroup name="object1">
+  <object id="11" gid="58" x="1029.58" y="1155.64" width="256" height="384">
+   <properties>
+    <property name="objid" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="13" gid="51" x="3078.06" y="1525.33" width="256" height="384">
+   <properties>
+    <property name="objid" type="int" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
