@@ -142,5 +142,7 @@ public class MainMapScene : BaseScene {
        objmanager.setPlayerRelId(rel.obj_id);
         objmanager.setPlayerId(player.obj_id);
 
+        Debug.Log("测试");
+
     }
 }
